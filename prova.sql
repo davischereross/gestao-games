@@ -246,7 +246,7 @@ VALUES
 );
 
 
--- 16. CONSULTAR AS TABELAS
+-- CONSULTAR AS TABELAS
 
 SELECT * FROM jogadores;
 
@@ -257,7 +257,7 @@ SELECT * FROM partidas;
 SELECT * FROM historico_partidas;
 
 
--- 17. CONSULTAR AS VIEWS
+--  CONSULTAR AS VIEWS
 
 SELECT * FROM vw_painel_principal;
 
@@ -266,7 +266,7 @@ FROM vw_cronograma_partidas
 ORDER BY data_agendamento ASC;
 
 
--- 18. TESTAR A FUNCAO DE BUSCA
+--  TESTAR A FUNCAO DE BUSCA
 
 SELECT * FROM fn_buscar_jogadores('davi');
 
